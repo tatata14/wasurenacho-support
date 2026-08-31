@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>わすれな帳 — もう、あの人のことを忘れない</title>
+<meta name="description" content="「この人、誰のパパだっけ」をなくす人物メモ。子どもの名前からでも、話したことからでも引けます。データは端末の中だけ。">
+<style>
+  :root{
+    --paper:#F6F4EC; --card:#FCFBF6; --ink:#2B2E2C; --sub:#6B7370;
+    --green:#2F6D5E; --akane:#A8492B; --rule:#E2E0D5;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --paper:#121614; --card:#1B211E; --ink:#E9E7DE; --sub:#97A19C;
+           --green:#7BC5AB; --akane:#D9825E; --rule:#2B322E; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:0 20px 80px; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    font-size:16px; line-height:1.95;
+  }
+  .wrap{max-width:680px;margin:0 auto}
+  header{padding:70px 0 34px}
+  .stamp{
+    width:72px;height:72px;border-radius:13px;background:var(--green);
+    display:flex;align-items:center;justify-content:center;margin-bottom:24px;
+    font-family:"Hiragino Mincho ProN",serif;color:var(--paper);
+    font-size:34px;font-weight:600;
+  }
+  h1{
+    font-family:"Hiragino Mincho ProN",serif;font-size:34px;font-weight:600;
+    margin:0 0 8px;letter-spacing:.05em;
+  }
+  .tagline{
+    font-family:"Hiragino Mincho ProN",serif;font-size:18px;color:var(--green);
+    margin:0 0 18px;letter-spacing:.04em;
+  }
+  .lead{color:var(--sub);margin:0;max-width:34em}
+  h2{
+    font-family:"Hiragino Mincho ProN",serif;font-size:21px;font-weight:600;
+    margin:48px 0 12px;letter-spacing:.03em;
+    padding-top:26px;border-top:1px solid var(--rule);
+  }
+  p{margin:14px 0}
+  .points{display:grid;gap:12px;margin:22px 0 0}
+  .point{
+    background:var(--card);border:1px solid var(--rule);border-radius:12px;
+    padding:18px 20px;
+  }
+  .point h3{margin:0 0 4px;font-size:16px}
+  .point p{margin:0;color:var(--sub);font-size:14.5px;line-height:1.85}
+  table{border-collapse:collapse;width:100%;margin:18px 0;font-size:14.5px}
+  th,td{text-align:left;padding:10px 12px;border-top:1px solid var(--rule);vertical-align:top}
+  th{white-space:nowrap;color:var(--sub);font-weight:600;width:34%}
+  a{color:var(--green)}
+  code{background:var(--card);padding:1px 6px;border-radius:4px;font-size:14px}
+  footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--rule);
+         color:var(--sub);font-size:13.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="stamp">わ</div>
+  <h1>わすれな帳</h1>
+  <p class="tagline">もう、あの人のことを忘れない。</p>
+  <p class="lead">
+    「この人、誰のパパだっけ」「前に何を話したっけ」を、
+    思い出せる断片のほうから引ける人物メモです。
+  </p>
+</header>
+
+<h2>できること</h2>
+<div class="points">
+  <div class="point">
+    <h3>子どもの名前から親を引ける</h3>
+    <p>「ひまり」と打てば、ひまりちゃんのお父さんが出てきます。名前が思い出せなくても、覚えているほうの断片から辿れます。</p>
+  </div>
+  <div class="point">
+    <h3>打ち方を選ばない</h3>
+    <p>ひらがな・カタカナ・半角・ローマ字、どれで打っても同じように当たります。「tanaka」でも「田中」に届きます。</p>
+  </div>
+  <div class="point">
+    <h3>なぜ出てきたかが分かる</h3>
+    <p>検索結果には「子: ひまり」「記録: …キャンプの話で…」のように、当たった場所が添えられます。同じ名前の人がいても取り違えません。</p>
+  </div>
+  <div class="point">
+    <h3>顔で思い出せる</h3>
+    <p>本人にも家族にも写真を付けられます。名前より顔のほうが先に出てくる、という人のために。</p>
+  </div>
+  <div class="point">
+    <h3>通知は出しません</h3>
+    <p>人のことを書いたメモが、ロック画面に出てしまわないように。必要なときに開けば、そこにあります。</p>
+  </div>
+</div>
+
+<h2>データの扱い</h2>
+<p>書いた内容はすべて端末の中だけに保存されます。通信も同期もアカウント登録もありません。
+詳しくは<a href="./privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+
+<h2>サポート</h2>
+<p>不具合のご報告、ご要望、ご質問は下記までお願いします。
+返信までお時間をいただくことがありますが、必ず目を通します。</p>
+<table>
+  <tr><th>連絡先</th><td><a href="mailto:yearssupport@gmail.com">yearssupport@gmail.com</a></td></tr>
+  <tr><th>対応端末</th><td>iPhone（iOS 13 以降）</td></tr>
+  <tr><th>価格</th><td>無料</td></tr>
+</table>
+
+<h2>よくある質問</h2>
+<table>
+  <tr>
+    <th>データはどこにありますか</th>
+    <td>お使いの iPhone の中だけです。アプリを削除するとデータも消えます。設定画面からバックアップを書き出せます。</td>
+  </tr>
+  <tr>
+    <th>機種変更したいのですが</th>
+    <td>設定画面の「文字データをバックアップ」でコピーした内容を、新しい端末で「バックアップから復元」に貼り付けてください。写真はバックアップに含まれないため、入れ直しが必要です。</td>
+  </tr>
+  <tr>
+    <th>他の人に見られませんか</th>
+    <td>設定でロックを有効にすると、開くたびに Face ID / Touch ID での確認が入ります。</td>
+  </tr>
+</table>
+
+<footer>
+  <p>© 2026 わすれな帳<br>
+  <a href="./privacy.html">プライバシーポリシー</a></p>
+</footer>
+
+</div>
+</body>
+</html>
